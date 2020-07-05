@@ -1,0 +1,11 @@
+﻿Id_Usuario int identity(1,1) primary key,
+Login_Usuario varchar(20) not null,
+Senha_Usuario varchar(50) not null,
+Nome_Usuario varchar(50) not null,
+Nasc_Usuario date not null,
+Cpf_Usuario varchar(14) not null,
+Email_Usuario varchar(50) not null,
+Telefone_Usuario varchar(15),
+Celular_Usuario varchar(16),
+Admissao_Usuario date not null,
+Permissao_Usuario char(1) not null
